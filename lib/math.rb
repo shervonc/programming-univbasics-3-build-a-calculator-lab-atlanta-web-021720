@@ -24,8 +24,7 @@ end
 
 def modulo(num1, num2)
 modu = num2 / num1
-modu = modu - modu.float
-puts modu
+modu = modu - modu.to_i
 modu
 end
 
