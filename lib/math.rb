@@ -23,8 +23,7 @@ multi
 end
 
 def modulo(num1, num2)
-modu = num2 / num1
-modu = modu - modu.floor
+modu = num2 % num1
 modu
 end
 
