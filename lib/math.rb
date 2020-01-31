@@ -23,7 +23,7 @@ multi
 end
 
 def modulo(num1, num2)
-modu = num2 % num1
+modu = num1 % num2
 puts modu
 modu
 end
