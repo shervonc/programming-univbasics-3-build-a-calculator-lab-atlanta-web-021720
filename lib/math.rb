@@ -24,7 +24,7 @@ end
 
 def modulo(num1, num2)
 modu = num2 / num1
-modu = round(modu) - modu
+modu = modu.float - modu
 puts modu
 modu
 end
