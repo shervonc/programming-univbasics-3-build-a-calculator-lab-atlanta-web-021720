@@ -6,7 +6,7 @@ end
 
 def subtraction(num1, num2)
 difference = num1 - num2
-puts ddifference
+puts difference
 difference
 end
 
